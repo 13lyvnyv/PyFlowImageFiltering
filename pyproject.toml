@@ -4,7 +4,8 @@ name = "PyFlowImageFiltering"
 dependencies = [
     "qtpy",
     "numpy",
-    "opencv-python"
+    "opencv-python",
+    "git+https://github.com/wonderworks-software/PyFlow.git#egg=PyFlow",
+    "git+https://github.com/wonderworks-software/PyFlowOpenCv.git#egg=PyFlowOpenCv"
 ]
-
 
