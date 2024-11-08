@@ -4,9 +4,7 @@ name = "PyFlowImageFiltering"
 dependencies = [
     "qtpy",
     "numpy",
-    "opencv-python",
-    "os",
-    "collections"
+    "opencv-python"
 ]
 
 
