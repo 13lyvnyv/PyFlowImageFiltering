@@ -1,4 +1,3 @@
-import uuid
 from qtpy import QtCore, QtGui
 from PyFlow.Core.NodeBase import NodeBase, NodePinsSuggestionsHelper
 from PyFlow.Core.Common import *
