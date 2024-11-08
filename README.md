@@ -32,7 +32,7 @@ git clone https://github.com/13lyvnyv/PyFlowImageFiltering
 
 ### 4. Запуск
 Для запуска вводим `pyflow` в терминал.  
-В приложении для удобства добавляем инструменты **NodeBox** (Tools -> PyFlowBase -> NodeBox) и **Properties** (Tools -> PyFlowBase -> Properties).  
+В приложении для удобства добавляем инструменты **NodeBox** (`Tools -> PyFlowBase -> NodeBox`) и **Properties** (`Tools -> PyFlowBase -> Properties`).  
 При использовании инструмента ImageViewerTool из библиотеки PyFlowOpenCv могут возникнуть проблемы с функциональностью меню File. Это может привести к нестабильной работе PyFlow.
 
 ## Описание функций
