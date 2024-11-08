@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 Копируем PyFlowOpenCv из .PyFlow/Packages в дирректорию `.venv/lib/python/site-packages/PyFlow/Packages`.
 ### 3. Установка PyFlowImageFiltering
-Копируем репозиторий PyFlowImageFiltering
+Копируем репозиторий PyFlowImageFiltering:
 ```
 git clone https://github.com/13lyvnyv/PyFlowImageFiltering
 ```
@@ -33,7 +33,7 @@ git clone https://github.com/13lyvnyv/PyFlowImageFiltering
 ### 4. Запуск
 Для запуска вводим `pyflow` в терминале.  
 В приложении для удобства добавляем инструменты **NodeBox** (`Tools -> PyFlowBase -> NodeBox`) и **Properties** (`Tools -> PyFlowBase -> Properties`).  
-####Замечания
+#### Замечания
 -При использовании инструмента **ImageViewerTool** из библиотеки PyFlowOpenCv могут возникнуть проблемы с функциональностью меню File. Это может привести к нестабильной работе PyFlow.  
 -Для использования инструмента **Logger** необходимо зайти в `Edit -> Preferences -> General` и активировать опцию **Redirect output**.
 ## Описание функций
