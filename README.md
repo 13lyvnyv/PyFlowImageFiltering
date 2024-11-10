@@ -74,8 +74,8 @@ pyflow
 
 ## Добавление нодов
 
-
-Ниже приведён пример добавления узла `cv_Sharpen` в библиотеке `ImageFilteringLib.py`
+Расширение расположено в `.venv/lib/python/site-packages/PyFlow/Packages`.  
+Ниже приведён пример добавления узла `cv_Sharpen` в библиотеке `ImageFilteringLib.py`:
 
 ```python
 @staticmethod
@@ -101,7 +101,7 @@ def cv_Sharpen(input=('ImagePin', None), intensity=('FloatPin', 1.0), img=(REF, 
 Все ноды, объявленные в `ImageFilteringLib.py`, используют графический интерфейс `UIOpenCvBaseNode.py` из расширения **PyFlowOpenCv**.   
 Однако если требуется дополнительный вывод информации в ноде, нужно подключить соответствующий класс.
 Так, например, нод `showNumber` реализован отдельным файлом `showNumber.py` и использует `UIShowNumber.py`.  
-Чтобы связать нод с его интерфейсом, необходимо внести изменения в файл `UINodeFactory.py`
+Чтобы связать нод с его интерфейсом, необходимо внести изменения в файл `UINodeFactory.py`:
 ```python
 #UINodeFactory.py
 def createUINode(raw_instance):
