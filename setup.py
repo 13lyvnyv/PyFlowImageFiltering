@@ -44,10 +44,9 @@ def copy_plugins():
     else:
         print("PyFlowOpenCv directory not found.")
 
-# Запускаем функцию копирования плагинов
+
 copy_plugins()
 
-# Стандартная функция setup
 setup(
     packages=find_packages()
 )
