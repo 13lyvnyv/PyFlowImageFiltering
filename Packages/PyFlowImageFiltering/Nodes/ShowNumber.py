@@ -47,7 +47,7 @@ class showNumber(NodeBase):
         :rtype: NodePinsSuggestionsHelper
         """
         helper = NodePinsSuggestionsHelper()
-        helper.addInputDataType(DataTypes.Float)
+        helper.addInputDataType('FloatPin')
         helper.addInputStruct(StructureType.Single)
 
         return helper
