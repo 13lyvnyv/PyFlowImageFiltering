@@ -2,36 +2,28 @@
 
 **PyFlowImageFiltering** — это расширение для фреймворка [PyFlow](https://github.com/wonderworks-software/PyFlow), которое добавляет набор фильтров для обработки изображений с использованием OpenCV.
 
-## Требования
-
-Для работы **PyFlowImageFiltering** необходимо установить расширение [PyFlowOpenCV](https://github.com/wonderworks-software/PyFlowOpenCv).
+## Зависимости
+**PyFlowImageFiltering** зависит от расширения [PyFlowOpenCV](https://github.com/wonderworks-software/PyFlowOpenCv), которое предоставляет необходимую функциональность
+для работы с изображениями.
 
 ## Установка и запуск
-### 1. Установка PyFlow
-Устанавливаем PyFlow:
-```
-pip install git+https://github.com/wonderworks-software/PyFlow.git@master
-```
-### 2. Установка PyFlowOpenCv
-Копируем репозиторий PyFlowOpenCv:
-```
-git clone https://github.com/wonderworks-software/PyFlowOpenCv
-```
-Переходим в PyFlowOpenCv и устанавливаем `requirements.txt`:
-```
-cd PyFlowOpenCv
-pip install -r requirements.txt
-```
-Копируем PyFlowOpenCv из .PyFlow/Packages в дирректорию `.venv/lib/python/site-packages/PyFlow/Packages`.
-### 3. Установка PyFlowImageFiltering
+### Установка
 Копируем репозиторий PyFlowImageFiltering:
 ```
 git clone https://github.com/13lyvnyv/PyFlowImageFiltering
 ```
-Переходим в PyFlowImageFiltering и копируем расширение PyFlowImageFiltering в `.PyFlow/Packages`.
+Переходим в PyFlowImageFiltering и выполняем установку:
+```
+cd PyFlowImageFiltering
+make install
+```
 
-### 4. Запуск
-Для запуска вводим `pyflow` в терминале.  
+### Запуск
+Для запуска активируем виртуальное окружение и вводим `pyflow` в терминале:
+```
+source .venv/bin/activate
+pyflow
+```
 В приложении для удобства добавляем инструменты **NodeBox** (`Tools -> PyFlowBase -> NodeBox`) и **Properties** (`Tools -> PyFlowBase -> Properties`).  
 #### Замечания
 - При использовании инструмента **ImageViewerTool** из библиотеки PyFlowOpenCv могут возникнуть проблемы с функциональностью меню File. Это может привести к нестабильной работе PyFlow.  
