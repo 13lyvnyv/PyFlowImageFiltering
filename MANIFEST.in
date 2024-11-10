@@ -1,0 +1,2 @@
+include PyFlowOpenCv/PyFlow/Packages/*
+include Packages/*

@@ -1,10 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel", "pip"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "PyFlowImageFiltering"
-version = "1.0"
-
+version = "1.0.0"
+requires-python = ">=3.8"
 dependencies = [
-    "qtpy",
+    "imutils",
     "numpy",
-    "opencv-python"
+    "scipy",
+    "opencv-python",
+    "pytesseract",
+    "opencv-contrib-python",
+    "PyFlow @ git+https://github.com/wonderworks-software/PyFlow.git@master"
 ]
-
